@@ -22,7 +22,7 @@
                 <Entry Grid.Row="8" Grid.Column="4" Placeholder="Segundo lado" Keyboard="Numeric" Text="{Binding SegundoLado}"></Entry>
 
 
-                <Entry  Grid.Row="9" Grid.Column="5" Placeholder="Area del triangulo" IsEnabled="False" x:Name="Resultado"></Entry>
+                <Entry  Grid.Row="9" Grid.Column="5" Placeholder="Area del triangulo" IsEnabled="False" x:Name="Resultado" Text="{Binding Resultado}"></Entry>
                 <Button Grid.Row="9" Grid.Column="5"   Command="{Binding Triangulocommand}"/> 
 
 
