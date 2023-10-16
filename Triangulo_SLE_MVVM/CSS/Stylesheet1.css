@@ -1,0 +1,15 @@
+﻿^ContentPage {
+    background-color: gray;
+}
+
+label {
+    color: blue;
+    font-size: 15;
+    background-color: black;
+}
+
+#encabezado {
+    background-color: red;
+    color: black;
+    font-size: 36;
+}
