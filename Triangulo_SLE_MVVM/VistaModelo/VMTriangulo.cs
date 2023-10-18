@@ -18,6 +18,8 @@ namespace Triangulo_SLE_MVVM.VistaModelo
         double _Resultado;
         double _PrimerLado;
         double _SegundoLado;
+        string _tipoTrianguloImagen;
+
         #endregion
         #region CONTRUCTOR
         public VMTriangulo(INavigation navigation)
@@ -68,6 +70,13 @@ namespace Triangulo_SLE_MVVM.VistaModelo
             get { return _Resultado; }
             set { SetValue(ref _Resultado, value); }
         }
+
+        public string TipoTrianguloImagen
+        {
+            get { return _tipoTrianguloImagen; }
+            set { SetValue(ref _tipoTrianguloImagen, value); }
+        }
+
         #endregion
         #region PROCESOS
 
@@ -95,6 +104,8 @@ namespace Triangulo_SLE_MVVM.VistaModelo
 
                 {
                     TipoTriangulo = "El triangulo es Equilatero";
+                    TipoTrianguloImagen = "Equilatero.jpg";
+
                     /*imgEquilatero.IsVisible = true;
                     imgEscaleno.IsVisible = false;
                     imgIsoseles.IsVisible = false;*/
@@ -105,6 +116,8 @@ namespace Triangulo_SLE_MVVM.VistaModelo
 
                 {
                     TipoTriangulo = "El triangulo  es Escaleno";
+                    TipoTrianguloImagen = "Equilatero.jpg";
+
                     /*imgEscaleno.IsVisible = true;
                     imgIsoseles.IsVisible = false;
                     imgEquilatero.IsVisible = false;
@@ -116,6 +129,8 @@ namespace Triangulo_SLE_MVVM.VistaModelo
 
                 {
                     TipoTriangulo = "El triangulo  es Isoceles";
+                    TipoTrianguloImagen = "isoseles.jpg";
+
                     /*imgIsoseles.IsVisible = true;
                     imgEquilatero.IsVisible = false;
                     imgEscaleno.IsVisible = false;

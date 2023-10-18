@@ -28,12 +28,16 @@
 
             </StackLayout>
 
+            
         </Grid>
 
-        <!--        <Image Source="equilatero.png
-" IsVisible="false" x:Name="imgEquilatero" HeightRequest="50" WidthRequest="50"></Image>
-        <Image Source="isoseles.png" HeightRequest="50" WidthRequest="50" x:Name="imgIsoseles" IsVisible="false"></Image>
-        <Image Source="escaleno.png" IsVisible="false" x:Name="imgEscaleno" HeightRequest="50" WidthRequest="50"></Image>-->
+
+        <Image x:Name="trianguloImage" Source="{Binding TipoTrianguloImagen}" IsVisible="true" HeightRequest="50" WidthRequest="50"></Image>
+
+
+
+
+
 
 
     </StackLayout>
